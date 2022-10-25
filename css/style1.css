@@ -1,0 +1,35 @@
+.right-side,
+.left-side {
+  border: 1px solid red;
+}
+.all {
+  display: flex;
+  gap: 10px;
+}
+
+.left-side {
+  /* flex: 1 1 auto; */
+  /* width: 30%; */
+  width: 200px;
+}
+
+.right-side {
+  /* width: 70%; */
+  /* flex: 2 1 auto; */
+  width: calc(100% - 200px);
+  display: block;
+}
+.form-control input {
+  padding: 10px;
+  /* border-color: #c4cfc9; */
+  border: 1px solid #c4cfc9;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-item:focus {
+  border: 1px solid red !important;
+}
+.img-banner {
+  width: 100%;
+}
