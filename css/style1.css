@@ -1,35 +1,78 @@
+/* TODO: giai thich */
+* {
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+}
 .right-side,
 .left-side {
   border: 1px solid red;
 }
 .all {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
   gap: 10px;
-}
-
-.left-side {
-  /* flex: 1 1 auto; */
-  /* width: 30%; */
-  width: 200px;
 }
 
 .right-side {
   /* width: 70%; */
   /* flex: 2 1 auto; */
-  width: calc(100% - 200px);
-  display: block;
+  /* width: calc(100% - 200px); */
+  /* display: block; */
+  padding: 0px 150px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  /* justify-content: ; */
 }
 .form-control input {
   padding: 10px;
   /* border-color: #c4cfc9; */
   border: 1px solid #c4cfc9;
-  border-radius: 5px;
+  border-radius: 6px;
+  margin-bottom: 20px;
   outline: none;
+  display: block;
+  width: 100%;
+}
+.sigup-form-control label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.signup-step1 select {
+  display: block;
+}
+.form-control {
+  /* CSS Grid */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
 }
 
 .input-item:focus {
-  border: 1px solid red !important;
+  border: 1px solid red;
 }
 .img-banner {
   width: 100%;
+}
+.color-red {
+  color: red;
+}
+button {
+  background-color: green;
+  width: 80px;
+  height: 45px;
+  color: white;
+}
+
+.list-process {
+  padding: 20px;
+}
+
+.tlt-1 {
+  font-size: 18px;
+  color: #0e8342;
 }

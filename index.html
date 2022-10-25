@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style1.css" />
   </head>
   <body>
-    <div class="all">
+    <div class="all signup-step1">
       <div class="left-side">
         <div>
           <img src="img/logo.png" alt="" />
@@ -18,16 +18,46 @@
         </div>
       </div>
       <div class="right-side">
+        <div class="procedure">
+          <ul>
+            <li class="list-process">
+              <img class="img-icon" src="img/icon/process-1.png" alt="" />
+              <span>Đăng ký</span>
+            </li>
+            <li class="list-process">
+              <img src="img/icon/process-2.png" alt="" />
+              <span>Xác nhận thông tin</span>
+            </li>
+            <li class="list-process">
+              <img src="img/icon/process-3.png" alt="" />
+              <span>Xác minh danh tính</span>
+            </li>
+            <li class="list-process">
+              <img src="img/icon/process-4.png" alt="" />
+              <span>Ký hợp đồng điện tử</span>
+            </li>
+            <li class="list-process">
+              <img src="img/icon/process-5.png" alt="" />
+              <span>Hoàn thành</span>
+            </li>
+          </ul>
+        </div>
         <div class="box-module">
-          <h2>Thông tin tài khoản</h2>
-          <div class="form-control">
-            <div class="form-control">
-              <label for="name-input">Họ tên</label>
-              <input id="name-input" class="input-item" type"text"
+          <h2 class="tlt-1">Thông tin tài khoản</h2>
+          <div class="form-control sigup-form-control">
+            <div>
+              <label for>
+                Họ tên
+                <span class="color-red">*</span>
+              </label>
+              <input class="name-input" class="input-item" type"text"
               placeholder="Nhập đầy đủ họ tên có dấu">
             </div>
-            <div class="form-control">
-              <label for="Ngày sinh"></label>
+            <div>
+              <label for>
+                Ngày sinh
+                <span class="color-red">*</span>
+              </label>
               <input
                 class="input-item"
                 type="text"
@@ -35,7 +65,10 @@
               />
             </div>
             <div>
-              <label for="Số điện thoại"></label>
+              <label for>
+                Số điện thoại
+                <span class="color-red">*</span>
+              </label>
               <input
                 type="text"
                 class="input-item"
@@ -43,7 +76,10 @@
               />
             </div>
             <div>
-              <label for="Email"></label>
+              <label for>
+                Email
+                <span class="color-red">*</span>
+              </label>
               <input
                 type="text"
                 class="input-item"
@@ -51,15 +87,18 @@
               />
             </div>
             <div>
-              <label for="Giới tính"></label>
-              <input
-                type="text"
-                class="input-item"
-                placeholder="Chọn giới tính"
-              />
+              <label for>
+                Giới tính
+                <span class="color-red">*</span>
+              </label>
+              <select name id class="input-item">
+                <option disabled selected>Chọn giới tính</option>
+                <option value="nam">Nam</option>
+                <option value="nữ">Nữ</option>
+              </select>
             </div>
             <div>
-              <label for="Nghề nghiệp"></label>
+              <label for>Nghề nghiệp</label>
               <input
                 type="text"
                 class="input-item"
@@ -67,7 +106,7 @@
               />
             </div>
             <div>
-              <label for="Mã nhân viên tư vấn (nếu có)"></label>
+              <label for="">Mã nhân viên tư vấn (nếu có)</label>
               <input
                 type="text"
                 class="input-item"
@@ -75,7 +114,7 @@
               />
             </div>
             <div>
-              <label for="Đơn vị công tác"></label>
+              <label for=""> Đơn vị công tác </label>
               <input
                 type="text"
                 class="input-item"
@@ -83,9 +122,9 @@
               />
             </div>
           </div>
-          <div class="box-module-button">
-            <button></button>
-          </div>
+        </div>
+        <div class="box-module-button">
+          <button type="submit" form="form1" value="Submit">Tiếp tục</button>
         </div>
       </div>
     </div>
