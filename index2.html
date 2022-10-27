@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Đăng ký 1 - b1</title>
-    <link rel="stylesheet" href="css/style1.css" />
+    <title>Đăng ký bước 2</title>
+    <link rel="stylesheet" href="css/style2.css" />
   </head>
   <body>
     <div class="all signup-step1">
@@ -47,88 +47,75 @@
           </ul>
         </div>
         <div class="box-module">
-          <h2 class="tlt-1">Thông tin tài khoản</h2>
+          <h2 class="tlt-1">Thông tin CMND/CCCD/Hộ chiếu</h2>
+          <div class="check-box">
+            <input type="checkbox" id class="check-b2" checked />
+            <label for="check-b2"> </label>
+            <span>Chọn nếu là nhà đầu tư nước ngoài</span>
+
+            <p class="note-b2">
+              <span class="color-red">*Lưu ý:</span>
+              <span> Kiểm tra thời hạn sử dụng của CMND</span>
+            </p>
+          </div>
           <div class="form-control sigup-form-control">
             <div>
               <label for>
-                Họ tên
-                <span class="color-red">*</span>
-              </label>
-              <input class="name-input" class="input-item" type"text"
-              placeholder="Nhập đầy đủ họ tên có dấu">
-            </div>
-            <div>
-              <label for>
-                Ngày sinh
-                <span class="color-red">*</span>
-              </label>
-              <input
-                class="input-item"
-                type="text"
-                placeholder="Ngày sinh (01/01/1990)"
-              />
-            </div>
-            <div>
-              <label for>
-                Số điện thoại
-                <span class="color-red">*</span>
-              </label>
-              <input
-                type="text"
-                class="input-item"
-                placeholder="Nhập số điện thoại"
-              />
-            </div>
-            <div>
-              <label for>
-                Email
-                <span class="color-red">*</span>
-              </label>
-              <input
-                type="text"
-                class="input-item"
-                placeholder="Nhập email của bạn"
-              />
-            </div>
-            <div>
-              <label for>
-                Giới tính
+                Chọn loại giấy tờ
                 <span class="color-red">*</span>
               </label>
               <select name id class="input-item select-dk1">
-                <option disabled selected>Chọn giới tính</option>
-                <option value="nam">Nam</option>
-                <option value="nữ">Nữ</option>
+                <option disabled selected>Chọn loại giấy tờ</option>
+                <option value="CMND">Chứng minh nhân dân</option>
+                <option value="CCCD">Căn cước công dân</option>
+                <option value="HC">Hộ chiếu</option>
               </select>
             </div>
             <div>
-              <label for>Nghề nghiệp</label>
+              <label for>
+                Số
+                <span class="color-red">*</span>
+              </label>
+              <input class="name-input" class="input-item" type"text"
+              placeholder="Nhập số">
+            </div>
+            <div>
+              <label for>
+                Ngày cấp
+                <span class="color-red">*</span>
+              </label>
+              <input class="input-item" type="text" placeholder="Ngày cấp" />
+            </div>
+            <div>
+              <label for>
+                Nơi cấp
+                <span class="color-red">*</span>
+              </label>
               <input
                 type="text"
                 class="input-item"
-                placeholder="Nhập nghề nghiệp"
+                placeholder="Nhập nơi cấp"
               />
             </div>
             <div>
-              <label for="">Mã nhân viên tư vấn (nếu có)</label>
+              <label for>
+                Ngày hết hạn
+                <span class="color-red">*</span>
+              </label>
               <input
                 type="text"
                 class="input-item"
-                placeholder="Nhập mã nhân viên tư vấn"
-              />
-            </div>
-            <div>
-              <label for=""> Đơn vị công tác </label>
-              <input
-                type="text"
-                class="input-item"
-                placeholder="Nhập đơn vị công tác"
+                placeholder="Ngày hết hạn"
               />
             </div>
           </div>
+          <div class="break-line">
+            <hr />
+          </div>
           <div class="box-module-button">
             <div class="button-centered">
-              <button>Tiếp tục</button>
+              <button class="pre-step">Trở về</button>
+              <button class="next-step">Tiếp tục</button>
             </div>
           </div>
         </div>

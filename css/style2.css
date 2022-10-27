@@ -6,6 +6,7 @@
 .right-side,
 .left-side {
   border: 1px solid red;
+  /* background-color: aquamarine; */
 }
 .all {
   /* display: flex; */
@@ -100,19 +101,6 @@
   color: red;
 }
 
-.box-module-button button {
-  width: 80px;
-  height: 45px;
-  color: white;
-  background-color: green;
-  top: 50%;
-  left: 50%;
-}
-
-.button-centered {
-  margin-left: 50%;
-}
-
 .list-process {
   padding: 20px;
 }
@@ -122,9 +110,31 @@
   color: #0e8342;
 }
 
+.break-line {
+  height: 2px;
+  color: gray;
+  margin: 20px 0;
+}
+
 .box-container {
   display: inline;
   border: 2px solid red;
   width: 50px;
   height: 30px;
 }
+.box-module-button button {
+  width: 80px;
+  height: 45px;
+  color: white;
+  background-color: green;
+  top: 50%;
+  left: 50%;
+}
+
+
+.button-centered {
+  margin-left: 50%;
+}
+.pre-step {
+  background-color: white;
+  color: #0e8342;
