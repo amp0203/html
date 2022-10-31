@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  background-color: #f4f7f9;
+}
+body,
+html {
+  padding: 0;
+  margin: auto;
+}
+.header-part {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  border-bottom: 1px solid green;
+  position: sticky;
+  top: 0;
+  background-color: gainsboro;
+}
+.header-text {
+  display: flex;
+}
+
+.orange-button {
+  text-align: center;
+  border-color: #f7941d;
+  background: #f7941d;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  height: 40px;
+  width: 150px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.header-text-account {
+  display: flex;
+}
+
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-hover {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  right: 0;
+  top: 42px;
+}
+
+.dropdown-hover a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: whitesmoke;
+  border: 1px solid blue;
+}
+
+.dropdown:hover .dropdown-hover {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.main-part {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-around;
+}
+
+.left-side {
+  border: 1px solid green;
+}
+
+.option-list a {
+  display: flex;
+}
+
+.option-list {
+  background-color: aliceblue;
+}
+
+.bank-name {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  margin: 30px 5px;
+}
+.linking-bank {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.cancel-button {
+  display: block;
+  background-color: gray;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 5px;
+  width: 100px;
+}
+
+.right-side {
+  border: 2px solid blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.chart-1-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-1-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-time {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn-time {
+  width: 65px;
+  min-width: 30px;
+}
+
+.first-page {
+  background-color: green;
+}
+
+.all-news-list {
+  border: 3px solid purple;
+}
+
+.all-news-list ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  column-gap: 40px;
+  list-style: none;
+}
+
+.news {
+  border: 0.5px solid #666b70;
+  border-radius: 7px;
+  margin: 10px 0;
+}
+.footer-part {
+  width: 100%;
+  background-color: #f7941d;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+}
+.content-layout {
+  margin-bottom: 100px;
+}
