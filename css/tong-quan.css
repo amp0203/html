@@ -280,6 +280,10 @@ body {
   min-height: 40px;
 }
 
+.chart-2-img {
+  width: 100%;
+}
+
 .button-time {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
