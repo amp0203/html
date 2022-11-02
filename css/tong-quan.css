@@ -108,7 +108,7 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  /* background-color: #3e8e41; */
 }
 
 .dropdown-option-item {
@@ -161,6 +161,13 @@ body {
 }
 .overview-option-list {
   background-color: white;
+}
+
+.category-toggle {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 .option-list a {
@@ -363,6 +370,7 @@ body {
   align-items: center;
   justify-items: center;
   column-gap: 5px;
+  padding-right: 15px;
 }
 
 .btn-time {
